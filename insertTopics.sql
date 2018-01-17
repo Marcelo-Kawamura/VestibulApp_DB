@@ -3,7 +3,13 @@ INSERT INTO id4147366_vestapp.topic (topic_name, subject_id) VALUES ('Parasitose
 INSERT INTO id4147366_vestapp.topic (topic_name, subject_id) VALUES ('Citologia - Célula eucarionte e provarionte', (SELECT subject_id FROM id4147366_vestapp.subject WHERE subject_name = 'Biologia'));
 INSERT INTO id4147366_vestapp.topic (topic_name, subject_id) VALUES ('Membrana plasmática - estrutura', (SELECT subject_id FROM id4147366_vestapp.subject WHERE subject_name = 'Biologia'));
 INSERT INTO id4147366_vestapp.topic (topic_name, subject_id) VALUES ('Membrana plasmática - transporte', (SELECT subject_id FROM id4147366_vestapp.subject WHERE subject_name = 'Biologia'));
+
 INSERT INTO id4147366_vestapp.topic (topic_name, subject_id) VALUES ('Poluição', (SELECT subject_id FROM id4147366_vestapp.subject WHERE subject_name = 'Biologia'));
 INSERT INTO id4147366_vestapp.topic (topic_name, subject_id) VALUES ('Estrutura do Átomo', (SELECT subject_id FROM id4147366_vestapp.subject WHERE subject_name = 'Química'));
 INSERT INTO id4147366_vestapp.topic (topic_name, subject_id) VALUES ('Modelos atômicos', (SELECT subject_id FROM id4147366_vestapp.subject WHERE subject_name = 'Química'));
+INSERT INTO id4147366_vestapp.topic (topic_name, subject_id) VALUES ('Ciclo Menstrual', (SELECT subject_id FROM id4147366_vestapp.subject WHERE subject_name = 'Biologia'));
+INSERT INTO id4147366_vestapp.topic (topic_name, subject_id) VALUES ('Era Vargas - Resumo', (SELECT subject_id FROM id4147366_vestapp.subject WHERE subject_name = 'História'));
+INSERT INTO id4147366_vestapp.topic (topic_name, subject_id) VALUES ('Revoltas do Período Regencial', (SELECT subject_id FROM id4147366_vestapp.subject WHERE subject_name = 'História'));
+INSERT INTO id4147366_vestapp.topic (topic_name, subject_id) VALUES ('Funções da Linguagem', (SELECT subject_id FROM id4147366_vestapp.subject WHERE subject_name = 'Português'));
+INSERT INTO id4147366_vestapp.topic (topic_name, subject_id) VALUES ('Funções da Linguagem - Metalinguagem', (SELECT subject_id FROM id4147366_vestapp.subject WHERE subject_name = 'Português'));
 commit;
